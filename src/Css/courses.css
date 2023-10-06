@@ -1,0 +1,13 @@
+
+.Courses .cards {
+    display: grid;
+    grid-template-columns: repeat(2,minmax(250px,1fr));
+    gap: 40px;
+    padding-bottom: 15px;
+    
+}
+@media(max-width:768px) {
+    .Courses .cards {
+         grid-template-columns: repeat(1,minmax(250px,1fr));
+    }
+}

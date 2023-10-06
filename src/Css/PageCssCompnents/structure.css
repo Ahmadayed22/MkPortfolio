@@ -1,0 +1,12 @@
+.images2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 25px 0;
+}
+@media(max-width:768px) {
+    .images2 {
+        grid-template-columns: repeat(2,1fr);
+         padding: 10px 0;
+    }
+}
