@@ -1,6 +1,6 @@
 const text = [
-  'BoTim',
-  'BoTim',
+  'Botim',
+  'Botim',
   'BEABEE',
   'KOALA4D',
   'Personal Project ',
