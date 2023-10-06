@@ -1,0 +1,46 @@
+ .Hem-info{
+display: flex;
+justify-content: space-between;
+padding: 15px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;   
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    align-items: center;
+    background-color: #7E69AF !important;
+}
+.Hem-info .you-drive{
+    display: flex;
+    flex: 1;
+    justify-content: start;
+    
+}
+.Hem-info .you-drive .name  {
+    margin-left: 15px;
+    color: white;
+} 
+.Hem-info .you-drive .name  p {
+   text-transform: capitalize;
+   
+}
+.Hem-info .you-drive .name  p:nth-child(1) {
+   font-weight: bold;
+}
+
+.Hem-info .you-drive .img {
+} 
+.Hem-info .you-drive img{
+    height: 64px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+} 
+.Hem-info .iconHem {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}

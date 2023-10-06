@@ -1,0 +1,45 @@
+.info_Project {
+   text-align: center;
+   padding: 15px 0 ;
+}
+
+.info_Project h2 {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+
+}
+
+.info_Project p {
+    color: var(--text-color);
+    max-width: 800px;
+    margin: 0 auto;
+}
+hr{
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+@media(max-width:786px) {
+    .info_Project {
+     padding-bottom: 5px ;
+}
+    .info_Project p {
+        font-size: 10px;
+        padding-bottom: 5px;
+    }
+    
+}
