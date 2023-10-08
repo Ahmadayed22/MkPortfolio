@@ -47,7 +47,7 @@
 /* Styles for specific icons */
 .Bio .info .icon {
     display: flex;
-    margin-bottom: 10px; /* Add space between icon blocks */
+    margin-bottom: 10px;
 }
 
 .Bio .info .icon span {
@@ -67,7 +67,6 @@
 /* Responsive styles */
 @media (max-width: 768px) {
     .Bio {
-       
         grid-template-columns: 1fr;
         gap: 20px;
     }
@@ -75,19 +74,26 @@
         font-size: 13px;
     }
     .Bio .image {
-    max-width: 300px;
-    margin: auto;
-}
-
-    .Bio .image img{
+        max-width: 300px;
+        margin: auto;
+    }
+    .Bio .image img {
         width: 100%;
-}
-
-
+    }
     .Bio .info .aboutMe {
         font-size: 14px;
     }
     .Bio .info .icon a {
         font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .Bio .info .aboutMe {
+        font-size: 10px;
+   word-wrap: break-word;
+    }
+        .Bio .info .icon a {
+        font-size: 12px;
     }
 }

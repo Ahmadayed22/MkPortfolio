@@ -11,7 +11,7 @@ const Togglemenu = ({ isOpen, onClick }) => {
             onClick={onClick}
             to="/"
           >
-            Personal Portfolio
+            Portfolio
           </Link>
         </li>
         <li>

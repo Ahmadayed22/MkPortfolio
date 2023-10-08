@@ -13,6 +13,16 @@ const Header = ({ headerRef }) => {
     const toggle = () => {
         setIsMenuOpen(!isMenuOpen);
     };
+    useEffect(() => {
+        if (isMenuOpen) {
+
+            document.body.classList.add('disable-scroll');
+        } else {
+
+            document.body.classList.remove('disable-scroll');
+        }
+    }, [isMenuOpen]);
+
 
 
     return (
@@ -33,12 +43,12 @@ const Header = ({ headerRef }) => {
                 <Animation transition={{ duration: 0.3, delay: 0.25 }}>
 
                     <motion.nav >
-                        <div className={`toggle-menu `} onClick={toggle}>
+                        <div className={`toggle-menu ${isMenuOpen ? ' toggle' : ''} `} onClick={toggle}>
                             {isMenuOpen ? <AiOutlineCloseCircle /> : <AiOutlineMenu />}
                         </div>
 
-                        <ul className={`${isMenuOpen ? 'toggle ' : ''}`}>
-                            <li><Link to="/" >Personal Portfolio</Link></li>
+                        <ul className={``}>
+                            <li><Link to="/" > Portfolio</Link></li>
                             <li><Link to="/Courses">Courses</Link></li>
                             <li><Link to="/bio">Bio</Link></li>
                         </ul>
