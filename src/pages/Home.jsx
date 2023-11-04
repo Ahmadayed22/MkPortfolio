@@ -20,7 +20,7 @@ const Home = ({ headerRef }) => {
       inline: "nearest",
     })
   }
-  const url = 'https://www.youtube.com/embed/9No_sCcgPj4?si=TWwsLBBW_VZbwN9J '
+  const url = "https://player.vimeo.com/video/880268369?badge=0&amp;autopause=0&amp;quality_selector=1&amp;player_id=0&amp;app_id=58479"
 
   return (
     <div className=' home' >

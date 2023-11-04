@@ -16,7 +16,7 @@ const Bio = () => {
     <Animation>
       <div className="Bio container">
         <div className="image">
-          <img src={BioImg} />
+          <img src={BioImg} alt="" />
         </div>
         <div className=" info">
           <div className="name">
