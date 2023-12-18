@@ -10,7 +10,7 @@ import gif from '../assets/Bottom2/Image_6.gif';
 const Bottom2 = () => {
     const H2 = 'Botim Brand Film - Breakdown';
     const P =
-        "I had the privilege of being part of an extraordinary team that meticulously planned and flawlessly executed the production of this commercial project. This captivating project made its grand debut at the Museum of the Future in the UAE during an event that marked the unveiling of Botim's new identity and its incredibly ambitious vision. In my role as a CG Artist, I utilized Houdini and Unreal Engine - City Sample to create the phone city featured in the video. If you're eager to experience the full video, you can watch it by following this link: [Insert Link Here]";
+        `I had the privilege of being part of an extraordinary team that meticulously planned and flawlessly executed the production of this commercial project. This captivating project made its grand debut at the Museum of the Future in the UAE during an event that marked the unveiling of Botim's new identity and its incredibly ambitious vision. In my role as a CG Artist, I utilized Houdini and Unreal Engine - City Sample to create the phone city featured in the video`;
     const url = 'https://www.youtube.com/embed/NvP6LRB1g6o?si=dgRx4w8Txn8DERJj';
 
     const images = {
